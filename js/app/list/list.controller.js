@@ -18,7 +18,7 @@ function ListController() {
   vm.isInReadMode = isInReadMode;
   vm.add = add;
   vm.save = save;
-  vm.cancel = cancel;
+  vm.cancel = reset;
 
   vm.list = {
     name: "Todo List",
@@ -104,8 +104,5 @@ function ListController() {
     }
   }
 
-  function cancel(){
-
-  }
 
 }
